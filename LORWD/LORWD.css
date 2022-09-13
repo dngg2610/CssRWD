@@ -1,0 +1,115 @@
+header {
+    background-color: black;
+    width: 100%;
+    color: white;
+    height:30px;
+    padding: 0;
+    margin: 0;
+}
+
+aside {
+    float: left;
+    background-color: rgb(192, 185, 185);
+    width: 20%;
+    height: 690px;
+}
+
+article {
+    float: left;
+    background-color: white;
+    width: 60%;
+    height: 690px;
+}
+
+section {
+    float: left;
+    background-color: rgb(192, 185, 185);
+    width: 20%;
+    height: 690px;
+}
+
+footer {
+    clear: both;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+.menu ul, .menu li {
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    float: left;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 100px;
+    height: 30px;
+}
+
+.menu ul ul li a {
+    width: 200px;
+    text-align: left;
+    padding-left: 10px;
+    background-color: black;
+}
+
+.menu li :hover {
+    background-color: red;
+}
+
+.menu ul ul {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul {
+    visibility: visible;
+}
+
+a {
+    padding-top: 5px;
+    color: white;
+}
+
+#login:hover {
+    color: red;
+}
+
+article {
+    padding-left: 20px;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 14px;
+}
+
+div {
+    border: 1px solid black;
+    width: 70%;
+    text-align: center;
+    margin-left: 60px;
+    height: 100px;
+    padding-top: 40px;
+    border-radius: 5%;
+}
